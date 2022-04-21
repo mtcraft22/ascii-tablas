@@ -45,9 +45,10 @@ class tabla:
             for a in self.__composicion[i]:
                 self.tabla.append(a)
         print("".join(self.tabla))
+        print(self.__composicion)
 
 
-algo = tabla(ancho=0, alto=10, estilo="doble_linea")
+algo = tabla(ancho=5, alto=10, estilo="doble_linea")
 
 algo.mostrar()
 
